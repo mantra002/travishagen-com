@@ -1,0 +1,29 @@
+@charset "utf-8";
+@import url("../webfonts/Gotham_Bold/stylesheet.css");
+@import url("../webfonts/Gotham_Light/stylesheet.css");
+
+body
+{
+	font-family: "Gotham Light";
+	font-size: 14px;
+}
+#header h1 {
+    font-family: "Gotham Light";
+    color: #000;
+    font-size: 46px;
+	margin: 0;
+	padding:0;
+	clear: none;
+}
+#header ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.tile
+{
+	width: 300px;
+	float: left;
+}
+
