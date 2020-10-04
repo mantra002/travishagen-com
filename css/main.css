@@ -7,6 +7,30 @@ body
 	font-family: "Gotham Light";
 	font-size: 14px;
 }
+#about-me {
+    clear: both;
+}
+#bannerText-small {
+    font-family: "eb-garamond";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 77px;
+	padding:0;
+	margin:0;
+}
+#bannerText-small::after{
+    content: "\a";
+    white-space: pre;
+}
+#body #banner #bannerText-big {
+    font-family: Gotham Bold;
+    font-size: 166px;
+	padding:0;
+	margin:0;
+}
+
+
+
 #header h1 {
     font-family: "Gotham Light";
     color: #000;
@@ -26,4 +50,3 @@ body
 	width: 300px;
 	float: left;
 }
-
