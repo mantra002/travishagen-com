@@ -52,8 +52,15 @@ body
     margin-bottom: 0;
 	letter-spacing: 5px;
 }
+#menu a
+{
+	color: #000;
+	font-size: 14px;
+	letter-spacing: 1px;
+	max-width: 150px;
+}
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 550px) {
   #banner #bannerText-big  {
     font-size: 110px;
     margin-top: -80px;
@@ -63,6 +70,10 @@ body
     font-size: 60px;
 	margin-top: 60px;
 }
+	#menu a
+{
+	min-width: 200px;
+}
 }
 
 #menu 
@@ -71,13 +82,7 @@ body
 	margin: 13px 0 0 0;
 }
 
-#menu a
-{
-	color: #000;
-	font-size: 14px;
-	letter-spacing: 1px;
-	max-width: 150px;
-}
+
 
 #menu a:hover
 {
