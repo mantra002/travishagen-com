@@ -27,6 +27,7 @@ body
 }
 #banner{
     background-image: url(../images/header-bg.png);
+	background-color:  #1b5ba6;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -80,7 +81,7 @@ body
 
 #menu a:hover
 {
-	color: #2d648e;
+	color: #1b5ba6;
 	text-decoration: underline;
 }
 
@@ -131,10 +132,9 @@ body
     letter-spacing: 1px;
 }
 #footer h3 {
-    color: #2d648e;
+    color: #1b5ba6;
     font-size: 14px;
     letter-spacing: 1px;
-
 	display : block;
 	width: 75px;
 }
