@@ -6,6 +6,12 @@ body
 {
 	font-family: "Gotham Light";
 	font-size: 14px;
+	background-color: #e9f2f9;
+}
+.row
+{
+	max-width: 960px;
+	margin: 0 auto;
 }
 #about-me {
     clear: both;
@@ -15,8 +21,6 @@ body
     font-style: italic;
     font-weight: 400;
     font-size: 77px;
-	padding:0;
-	margin:0;
 }
 #bannerText-small::after{
     content: "\a";
@@ -44,9 +48,19 @@ body
 	margin: 0;
 	padding: 0;
 }
-
-.tile
+.card
 {
-	width: 300px;
-	float: left;
+	background-color: #e9f2f9; 
+	border:none;
+}
+.card img
+{
+	margin: 0 auto;
+	
+}
+.card-title
+{
+    font-size: 16px;
+    font-family: "Gotham Bold";
+    text-align: center;
 }
