@@ -1,165 +1,135 @@
 @charset "utf-8";
 @import url("../webfonts/Gotham_Bold/stylesheet.css");
 @import url("../webfonts/Gotham_Light/stylesheet.css");
-
-body
-{
-	font-family: "Gotham Light";
-	font-size: 14px;
-	background-color: #e9f2f9;
+body {
+  font-family: "Gotham Light";
+  font-size: 14px;
+  background-color: #e9f2f9;
 }
-
 #about-me {
-    clear: both;
+  clear: both;
 }
-#header
-{
-	height: 70px;
+#header {
+  height: 70px;
 }
-#header h1 a
-{
-	color:#000;
-	font-size: 46px;
+#header h1 a {
+  color: #000;
+  font-size: 46px;
 }
-#header h1 a:hover
-{
-	text-decoration: none;
+#header h1 a:hover {
+  text-decoration: none;
 }
-#banner{
-    background-image: url(../images/header-bg.png);
-	background-color:  #1b5ba6;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-    height: 260px;
-	color: #fff;
+#banner {
+  background-image: url(../images/header-bg.png);
+  background-color: #1b5ba6;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 260px;
+  color: #fff;
 }
 #bannerText-small {
-    font-family: "eb-garamond";
-    font-style: italic;
-    font-weight: 400;
-    font-size: 77px;
+  font-family: "eb-garamond";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 77px;
 }
-
-  #banner #bannerText-big  
-{
-    font-family: "Gotham Bold";
-    font-size: 166px;
-    padding: 0;
-    margin-top: -100px;
-    margin-right: 0;
-    margin-left: 0;
-    margin-bottom: 0;
-	letter-spacing: 5px;
+#banner #bannerText-big {
+  font-family: "Gotham Bold";
+  font-size: 166px;
+  padding: 0;
+  margin-top: -100px;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  letter-spacing: 5px;
 }
-#menu a
-{
-	color: #000;
-	font-size: 14px;
-	letter-spacing: 1px;
-	max-width: 150px;
+#menu a {
+  color: #000;
+  font-size: 14px;
+  letter-spacing: 1px;
+  max-width: 150px;
 }
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 550px) {
-  #banner #bannerText-big  {
+  #banner #bannerText-big {
     font-size: 110px;
     margin-top: -80px;
   }
-	
-#bannerText-small {
+  #bannerText-small {
     font-size: 60px;
-	margin-top: 60px;
+    margin-top: 60px;
+  }
+  #menu a {
+    min-width: 200px;
+  }
 }
-	#menu a
-{
-	min-width: 200px;
+#menu {
+  margin: 13px 0 0 0;
 }
+#menu a:hover {
+  color: #1b5ba6;
+  text-decoration: underline;
 }
-
-#menu 
-
-{
-	margin: 13px 0 0 0;
-}
-
-
-
-#menu a:hover
-{
-	color: #1b5ba6;
-	text-decoration: underline;
-}
-
 #header h1 {
-    font-family: "Gotham Light";
-    color: #000;
-    font-size: 46px;
-    margin: 0;
-    padding: 0;
-    clear: none;
-    letter-spacing: 2px;
+  font-family: "Gotham Light";
+  color: #000;
+  font-size: 46px;
+  margin: 0;
+  padding: 0;
+  clear: none;
+  letter-spacing: 2px;
 }
-#header ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+#header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-
-.narrow
-{
-	max-width: 1200px;
-	margin: 0 auto;
+.narrow {
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.card
-{
-	background-color: #e9f2f9; 
-	border:none;
+.card {
+  background-color: #e9f2f9;
+  border: none;
 }
-.card img
-{
-	margin: 0 auto;
-	
+.card img {
+  margin: 0 auto;
 }
-.card-title
-{
-    font-size: 16px;
-    font-family: "Gotham Bold";
-    text-align: center;
+.card-title {
+  font-size: 16px;
+  font-family: "Gotham Bold";
+  text-align: center;
 }
-
 #footer {
-	background-color: #0e1f2c;
+  background-color: #0e1f2c;
 }
-
 #footer h2 {
-    color: #fff;
-    font-size: 22px;
-    letter-spacing: 1px;
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 1px;
 }
 #footer h3 {
-    color: #1b5ba6;
-    font-size: 14px;
-    letter-spacing: 1px;
-	display : block;
-	width: 75px;
+  color: #1b5ba6;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: block;
+  width: 75px;
 }
 #footer a {
-    color: #aaa;
-    font-size: 12px;
-    letter-spacing: 1px;
-	display : block;
-	width: 90px;
+  color: #aaa;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: block;
+  width: 90px;
 }
-#footer a:hover
-{
-	text-decoration: underline;
+#footer a:hover {
+  text-decoration: underline;
 }
-#footer #copyright
-{
-	color: #848484;
-	font-size: 10px;
+#footer #copyright {
+  color: #848484;
+  font-size: 10px;
 }
-#copyright
-{
-	text-align: center;
+#copyright {
+  text-align: center;
 }
