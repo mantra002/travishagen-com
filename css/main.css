@@ -9,7 +9,7 @@ body {
   font-family: "Gotham Light";
   font-size: 14px;
   background-color: #e9f2f9;
-  margin-bottom: 233px;
+  margin-bottom: 240px;
 }
 #about-me {
   clear: both;
@@ -174,3 +174,48 @@ body {
 	margin:0;
 	opacity: 1;
 }
+h3
+{
+	font-size: 22px;
+}
+
+h4
+{
+	font-size: 18px;
+}
+
+.job-info
+{
+	list-style-type:none;
+}
+.job-info li
+{
+	padding-bottom: 10px;
+}
+#highlight-bar
+{
+	text-align: right;
+}
+#highlight-bar li
+{
+	list-style-type: none;
+	padding: 5px 0;
+}
+#highlight-bar h3
+{
+	font-size: 16px;
+	font-family: "Gotham Bold";
+}
+#highlight-bar h4
+{
+	font-size: 14px;
+	font-weight: 600;
+}
+.nobr{
+	white-space: nowrap;
+}
+@media screen and (max-width: 767px) {
+#highlight-bar
+{
+	text-align: left;
+	}}
