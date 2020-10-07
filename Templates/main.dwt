@@ -25,7 +25,7 @@
   <div id="header" class="col-md-5 pl-4">
     <h1 class="mt-2"><a class="text-nowrap" href="http://travishagen.com">Travis Hagen</a></h1>
   </div>
-  <div id="menu" class="col-md-7 h-100 mt-4 pr-4 mx-0">
+  <div id="menu" class="col-md-7 h-100 mt-4 pr-4 mx-0 mw-100">
     <nav class="nav justify-content-end"> 
 		<a class="nav-link flex-grow-1" href="work.html">Work</a> 
 		<a class="nav-link flex-grow-1" href="projects.html">Projects</a> 
